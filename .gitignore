@@ -39,3 +39,6 @@ build/
 # ── Logs e arquivos temporários ──────────────────────────────
 *.log
 *.tmp
+
+# Relatórios e documentação (não publicar)
+09_relatorios_e_documentacao/
