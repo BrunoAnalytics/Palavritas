@@ -1,0 +1,41 @@
+﻿# ============================================================
+# .gitignore — Palavritas Data Analytics Project
+# ============================================================
+
+# ── Segurança: NUNCA subir credenciais ──────────────────────
+.env
+*.env.local
+
+# ── Ambiente virtual Python ──────────────────────────────────
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── Banco de dados local ─────────────────────────────────────
+08_banco_de_dados/dw_palavritas.db
+*.db
+*.sqlite
+
+# ── Modelos treinados (arquivos grandes) ─────────────────────
+04_modelos_de_machine_learning/modelo_churn_treinado.pkl
+*.pkl
+
+# ── Dados brutos e limpos (CSV pesados) ──────────────────────
+01_dados_brutos_e_limpeza/*.csv
+
+# ── Arquivos de sistema e IDE ────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/
+
+# ── Logs e arquivos temporários ──────────────────────────────
+*.log
+*.tmp
